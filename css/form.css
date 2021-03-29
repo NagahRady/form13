@@ -1,0 +1,121 @@
+body
+{
+	background-image:url("../images/download.jpg");
+	position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.form
+{
+	margin: 100px auto;
+
+	padding-top: 20px;
+	display: block;
+	width: 400px;
+	background-color: #fff;
+	max-height: 450px;
+	overflow: hidden;
+	border-radius: 5px;
+
+}
+.icons
+{
+	width: 200px;
+	margin: 10px auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.icons span
+{
+	width: 50px;
+	display: inline-block;
+	background:linear-gradient(to right , #ff105f , #ffad06);
+	text-align: center;
+	height: 30px;
+	padding-top: 20px;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+}
+.btn
+{
+	width: 200px;
+	margin: 10px auto;
+	background-color: white;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 15px;
+	position: relative;
+}
+.btn-color
+{
+	height: 100%;
+	width:100px;
+	background:linear-gradient(to right , #ff105f , #ffad06);
+	position: absolute;
+	top:0;
+	left: 0;
+	border-radius: 15px;
+	transition: .5s;
+}
+.btn button
+{
+	width: 90px;
+	height: 40px;
+	cursor: pointer;
+	border:none;
+	outline: none;
+	background: transparent;
+	position: relative;
+
+}
+.btn-login
+{
+	
+}
+form input[type="text"],form input[type="email"],form input[type="password"]
+{
+	width: 80%;
+	display: block;
+	height: 40px;
+	margin: 20px;
+	border-width: 0px 0px 1px 0px;
+	background-color: unset;
+	outline: none;
+}
+form input[type="checkbox"]
+{
+	margin-left: 20px;
+}
+form input[type="submit"]
+{
+	width: 70%;
+	height: 40px;
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+	border-radius: 15px;
+	border:none;
+	background: linear-gradient(90deg,#EF3152,#EF9E00);
+	cursor: pointer;
+
+}
+.login
+{
+	background-color: ;
+	position: relative;
+	transition: left 2s;
+
+}
+
+.sign
+{
+	background-color: ;
+	position: relative;
+	left:400px;
+	transition:left 2s;
+	top: -315px;
+
+}
